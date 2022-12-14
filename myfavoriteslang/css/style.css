@@ -1,0 +1,123 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479;
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+header .container{  
+    background-color: #F1F5F9;
+    height: 13vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+.user{
+    display: flex;
+}
+.user img{
+    margin-right: 10px;
+}
+.container-main{
+    margin:30px auto 0 auto;
+}
+form{
+    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   height: 60px;
+   margin-bottom: 20px;
+}
+input[type="text"]{
+   height: 30px;
+   width: 365px;
+   padding: 10px;
+   background-color: #64748B;
+   border: 0;
+   color: white;
+   font-size: 20px;
+}
+input::placeholder{
+    color: #3A5479;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #4A56F9;
+    color: #F1F5F9;
+    height: 5li0px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+    transform: scale(115%);
+}
+li{
+ background-color:#F1F5F9;
+ margin: 5px 0;
+ height: 80px;
+ padding: 0 20px;
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+}
+h3{
+    height: 42px;
+}
+p{
+   height: 20px;
+}
+li section:nth-child(2){
+    width: 80%;
+}
+figure img{
+    margin-right: 20px;
+    width: 70%;
+}
+footer .container{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+}
+ /*classes que criei para alterar a cor das notas e do nome no footer*/
+ .m37021040_notaverde{
+    color: green;
+ }
+ .m37021040_notavermelha{
+    color: red
+ }
+ .m37021040{
+    color: #F1F5F9;
+ }
+ 
+
